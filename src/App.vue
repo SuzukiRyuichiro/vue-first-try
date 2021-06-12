@@ -2,7 +2,7 @@
   <div class="container">
     <button class="btn btn-primary">hello</button>
     <h1>Hello world</h1>
-    <Header title="HI"/>
+    <Header title="HI" />
   </div>
 </template>
 
@@ -10,7 +10,6 @@
 import Header from './components/Header.vue';
 
 export default {
-
   name: 'App',
   components: {
     Header,
